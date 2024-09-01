@@ -1,0 +1,31 @@
+.categorytitle{
+    font-size: 28px;
+
+}
+.category{
+    margin: 20px 100px;
+}
+.categorymap{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px 30px; */
+}
+.sporttab{
+    
+}
+.sporttitle{
+    border-radius: 6px;
+    background-color: #EBEEF3;
+    padding: 30px 20px;
+    width: 270px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #B8C2CE;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.sportimage{
+
+}

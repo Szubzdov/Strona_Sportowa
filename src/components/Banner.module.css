@@ -1,0 +1,93 @@
+.banner{
+    /* background-color: red; */
+    display: flex;
+}
+.photos{
+    position:sticky;
+    /* background-color: aqua; */
+    width: 100vw;
+}
+.ball{
+    /* position: absolute; */
+}
+.player{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+}
+.phototitle{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 2;
+    margin: 100px;
+    width: 500px;
+    /* background-color: red; */
+
+}
+
+.newest{
+    /* display: grid; */
+    /* justify-content: start;
+    align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin: 20px 100px;
+
+}
+.headest{
+    background-color: #E1E8F0;
+    color: #B8C2CE;
+    padding: 4px 16px;
+    border-radius: 3px;
+    width: 90px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* display: flex; */
+    
+}
+.newscard{
+    border-radius: 6px;
+    width: 270px;
+    height: 210px;
+    /* background-color: red; */
+    position: sticky;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    
+    /* background-position:center; */
+    /* background-size: cover; */
+    /* object-fit: cover; */
+    /* background-origin: border-box; */
+    /* background-color: red; */
+}
+.newscard .date{
+    /* background-color: red; */
+    width: 100%;
+    font-size: 10;
+    color: #262626;
+}
+.newstitle{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.97) 30%, rgba(255, 255, 255, 0) 100%);
+    /* background-color: red; */
+    display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: flex-end; /* Align children at the bottom */
+  align-items: flex-start; /* Align children to the left */
+  line-height: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  /* height: 90px; */
+  padding: 10px 20px;
+  
+
+}
+.newstitle .titlen{
+    font-size: 16px;
+    font-weight: 700px;
+    
+}

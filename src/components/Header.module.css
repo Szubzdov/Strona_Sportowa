@@ -1,0 +1,65 @@
+@import '../colors.css';
+header{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+
+
+}
+.nav li a:nth-child(0){
+    font-weight: 700;
+}
+.search{
+    background-color: var(--color-primary);
+    border:0;
+    color: white;
+    padding-inline: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    height: 35px;
+}
+.search img {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:830px) {
+    .nav a:hover{
+        background-color: red;
+    }
+    .nav a{
+        
+    }
+    .nav{
+        /* visibility: hidden; */
+        /* position: absolute; */
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 40px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .search{
+        visibility: hidden;
+        position: absolute;
+    }
+}
